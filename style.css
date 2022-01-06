@@ -1,5 +1,5 @@
 body{
-    padding: 5%;
+
     margin: 0;
 }
 h1{
@@ -17,9 +17,18 @@ h1{
 }
 .header-h1{
     border-left: 5px solid;
-    border-image: linear-gradient(rgb(241, 162, 36),rgb(247, 169, 96));
+    border-image: linear-gradient(rgb(255, 183, 142),rgb(247, 169, 96));
     border-image-slice: 1;
     padding-left: 3%;
+}
+.header-h1 span{
+    font-size: 50px;
+    color: chocolate;
+}
+
+.header-content-2 p{
+    margin-bottom: 40px;
+    font-size: 20px;
 }
 .hireme-btn{
     background-image: linear-gradient(rgb(251, 177, 107),rgb(250, 198, 102));
@@ -87,7 +96,7 @@ h1{
     background-position: left;
     background-size: 25%;
     display: flex;
-    padding: 5%;
+    padding:0 5%;
 }
 .dev-section-img img{
     width: 80%;
@@ -101,18 +110,20 @@ h1{
 }
 .dev-section-content{
     width: 50%;
-    margin: auto 0;
-   
+    margin: auto 0;  
+}
+.dev-section-content p{
+    margin-bottom: 30px;
 }
 .dev-section-btn{
     background-color: rgb(250, 100, 0);
-    padding: 2% 5%;
+    padding: 3% 5%;
     text-decoration: none;
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 .dev-section-content p{
-    margin: 20px 0;
+    margin-bottom: 30px;
 }
 .global-Community{
     background-image: url(shapes/shape-1.png);
@@ -120,7 +131,7 @@ h1{
     background-position: right bottom;
     background-size: 20%;
     display: flex;
-    padding: 5%;
+    padding: 0 5%;
 }
 .global-Community-img img{
     width: 80%;
@@ -137,13 +148,69 @@ h1{
     margin: auto 0;
     padding-right: 20px;
 }
+.global-Community-content p{
+    margin-bottom: 30px;
+}
 .global-Community-btn{
     background-color: rgb(250, 100, 0);
-    padding: 2% 5%;
+    padding: 3% 5%;
     text-decoration: none;
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
 }
 .global-Community-content p{
-    margin: 20px 0;
+    margin-bottom: 30px;
+}
+.aboutme{
+    display: flex;
+    background-color: rgb(255, 248, 248);
+    margin:50px 0px;
+    padding:20px 20px;
+}
+.aboutme-image1{
+    width: 25%;
+    margin: auto;
+}
+.aboutme-image1 img{
+    width: 100%;
+    box-shadow: 5px 5px 10px #fba0a0;
+}
+.aboutme-content{
+    width: 50%;
+}
+.aboutme-image2{
+    width: 25%;
+    margin: auto;
+}
+.aboutme-image2 img{
+    width: 100%;
+    box-shadow: 5px 5px 10px #fba0a0;
+}
+.aboutme-content{
+    text-align: center;
+    padding:5% 2%;
+}
+.aboutme-content span{
+    color: #FB6655;
+}
+.aboutme-content p{
+    margin-bottom: 30px;
+}
+.aboutme-btn{
+    background-color: #FB6655;
+    padding: 3% 5%;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-top: 100px;
+}
+footer{
+    background-color: black;
+    color: rgb(185, 185, 185);
+    font: 500;
+    font-size: 20px;
+    margin: 0%;
+    padding: 20px 0;
+    text-align: center;
+    text-decoration-style: dotted;
 }
