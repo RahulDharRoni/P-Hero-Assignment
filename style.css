@@ -50,7 +50,7 @@ h1{
 }
 .flex-section{
     display: flex; 
-    padding: 5%;  
+    padding: 3% 5%;  
 }
 .Text-color{
     text-align: center;
@@ -129,7 +129,7 @@ h1{
     background-image: url(shapes/shape-1.png);
     background-repeat: no-repeat; 
     background-position: right bottom;
-    background-size: 20%;
+    background-size: 15%;
     display: flex;
     padding: 0 5%;
 }
