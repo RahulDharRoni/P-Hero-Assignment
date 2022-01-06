@@ -1,22 +1,33 @@
 body{
-    padding: 5px;
+    padding: 5%;
     margin: 0;
 }
 h1{
-    font-size: 60px;
+    font-size: 50px;
+    margin: 0;
 }
 .header-section{
     display: flex;
+    margin-bottom: 50px;
 }
 .header-content{
     width: 50%;
     padding-left: 5%;
+    margin: auto 0px;
 }
 .header-h1{
     border-left: 5px solid;
-    border-image: linear-gradient(rgb(241, 162, 36),rgb(255, 174, 0));
+    border-image: linear-gradient(rgb(241, 162, 36),rgb(247, 169, 96));
     border-image-slice: 1;
     padding-left: 3%;
+}
+.hireme-btn{
+    background-image: linear-gradient(rgb(251, 177, 107),rgb(250, 198, 102));
+    padding: 10px 30px;
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 5%;
 }
 .header-img{
     width: 50%;
@@ -27,4 +38,112 @@ h1{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+.flex-section{
+    display: flex; 
+    padding: 5%;  
+}
+.Text-color{
+    text-align: center;
+}
+.Text-color span{
+    color: rgb(247, 156, 91);
+    text-decoration-style:dashed;
+    text-transform: uppercase;
+}
+.Mission{
+    width: 25%;
+    padding: 0 2%;
+    border-radius: 8px;
+    background-color: rgb(205, 241, 255);
+    margin: auto;
+}
+.Mission img{
+    width: 50%;
+}
+.Vission{
+    width: 25%;
+    padding: 0 2%;
+    border-radius: 8px;
+    background-color: rgb(255, 213, 205);
+    margin: auto;
+}
+.Vission img{
+    width: 50%;
+}
+.Goals{
+    width: 25%;
+    padding: 0 2%;
+    border-radius: 8px;
+    background-color: blanchedalmond;
+    margin: auto;
+}
+.Goals img{
+    width: 50%;
+}
+.dev-section{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat; 
+    background-position: left;
+    background-size: 25%;
+    display: flex;
+    padding: 5%;
+}
+.dev-section-img img{
+    width: 80%;
+    display: block;
+    margin-right: auto;
+}
+.dev-section-img{
+    width: 50%;
+    margin: auto;
+    padding: 2% 1%;
+}
+.dev-section-content{
+    width: 50%;
+    margin: auto 0;
+   
+}
+.dev-section-btn{
+    background-color: rgb(250, 100, 0);
+    padding: 2% 5%;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+}
+.dev-section-content p{
+    margin: 20px 0;
+}
+.global-Community{
+    background-image: url(shapes/shape-1.png);
+    background-repeat: no-repeat; 
+    background-position: right bottom;
+    background-size: 20%;
+    display: flex;
+    padding: 5%;
+}
+.global-Community-img img{
+    width: 80%;
+    display: block;
+    margin-left: auto;
+}
+.global-Community-img{
+    width: 50%;
+    margin: auto;
+    padding: 2% 1%;
+}
+.global-Community-content{
+    width: 50%;
+    margin: auto 0;
+    padding-right: 20px;
+}
+.global-Community-btn{
+    background-color: rgb(250, 100, 0);
+    padding: 2% 5%;
+    text-decoration: none;
+    color: white;
+    border-radius: 7px;
+}
+.global-Community-content p{
+    margin: 20px 0;
 }
